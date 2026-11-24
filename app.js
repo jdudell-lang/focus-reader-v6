@@ -311,7 +311,7 @@ move = function(delta) {
 /* V6: Supabase cloud sync. Offline-first: the local IndexedDB library is authoritative
    while offline; remote sync uses user-scoped RLS and a private Storage bucket. */
 const CLOUD_URL='https://pvrrghyjuwxvqvfcyxvj.supabase.co';
-const CLOUD_KEY='sb_publishable_RkwTYLGeo2f9-EkfRFKFjw_YMjMF5dt';
+const CLOUD_KEY='sb_publishable_RkwTYLGeo2f9-EkfRFKFjw_YMjMF5dl';
 const CLOUD_BUCKET='reader-pdf';
 const cloudSessionKey='focus-reader-cloud-session';
 let cloudSession=null,cloudBusy=false,cloudTimer=null,cloudRefreshing=null;
